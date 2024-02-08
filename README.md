@@ -57,13 +57,7 @@ A positional index was created to support phrase queries. The first few entries 
 ### Weaknesses
 
 - The current implementation assumes perfect preprocessing, and variations in user queries might lead to unexpected results.
-- The code does not handle proximity queries explicitly, and further enhancements could be made for more advanced use cases.
 
-### Future Improvements
-
-- Enhance preprocessing to handle a wider range of variations in user queries.
-- Implement proximity-based querying for more precise results.
-- Explore parallel processing for query execution to improve efficiency.
 
 ## Conclusion
 
